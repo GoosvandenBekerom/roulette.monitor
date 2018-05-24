@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_outer_classname = "RouletteProto";
+
+message Error {
+    string message = 1;
+    string context = 2;
+    string username = 3;
+}
