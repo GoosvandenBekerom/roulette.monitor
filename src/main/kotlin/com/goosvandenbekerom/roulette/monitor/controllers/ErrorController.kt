@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController
 class ErrorController {
     @Autowired private lateinit var repo: ErrorRepository
 
-    @GetMapping("/api/greeting")
+    @GetMapping("/api/errors")
     fun all(): Iterable<ErrorEntry> = repo.findAll()
 }
