@@ -1,7 +1,7 @@
 package com.goosvandenbekerom.roulette.monitor.rabbit
 
 import com.google.protobuf.GeneratedMessageV3
-import com.goosvandenbekerom.roulette.monitor.proto.RouletteProto.*
+import com.goosvandenbekerom.roulette.proto.RouletteProto.*
 import org.springframework.amqp.core.Message
 import org.springframework.amqp.core.MessageDeliveryMode
 import org.springframework.amqp.core.MessageProperties

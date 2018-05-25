@@ -2,7 +2,7 @@ package com.goosvandenbekerom.roulette.monitor.rabbit
 
 import com.google.protobuf.Message
 import com.goosvandenbekerom.roulette.monitor.domain.ErrorEntry
-import com.goosvandenbekerom.roulette.monitor.proto.RouletteProto.*
+import com.goosvandenbekerom.roulette.proto.RouletteProto.*
 import com.goosvandenbekerom.roulette.monitor.repositories.ErrorRepository
 import org.springframework.amqp.rabbit.annotation.RabbitListener
 import org.springframework.beans.factory.annotation.Autowired
